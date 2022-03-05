@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- link favicon  -->
+    <link rel="icon" type="image/x-icon" href="../img/favicon.ico">
+    
+    <!-- link bootsrap css  -->
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+
+    <!-- link font awesome -->
+    <link rel="stylesheet" href="../css/all.min.css">
+
+    <!-- link google font  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Allura&display=swap" rel="stylesheet">
+    
+    <!-- link custome css -->
+    <link rel="stylesheet" href="../css/style.css">
+
+    <!-- aos link  -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!-- type js link -->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+    <title>DARPAN | HOME</title>
+</head>
+<body>
+
+ <!-- home background image  -->
+    <!-- <div class="home-bg-image" style="position: fixed; z-index:-999; width:100%">
+        <img class="home-img" src="../img/bg.png" alt="backgroung">
+    </div> -->
+
+    <!-- navigation bar -->
+    <div class="d-flex justify-content-center">
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="div">
+        <div class="container">
+            <a class="navbar-brand" href="#"><i class="fa-solid fa-angle-left"></i><span style="font-weight: bold;">/</span>ADMIN<i class="fa-solid fa-angle-right"></i></a>
+        </div>
+        </nav>
+    </div>
+
+
+<div class="d-flex  align-container">
+
+        <!-- ADMIN LOGIN  -->
+    <div class="container fs-2" style="margin-top: 10rem;">
+            <p class="h1 my-5 text-center">ADMIN LOGIN</p>
+        <form>
+        <div class="mb-3">
+            <label for="exampleInputName" class="form-label">Full Name</label>
+            <input type="text" class="form-control py-2 fs-2" id="exampleInputName" aria-describedby="nameHelp">
+        </div>
+        <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Email address</label>
+            <input type="email" class="form-control py-2 fs-2" id="exampleInputEmail1" aria-describedby="emailHelp">
+        </div>
+        <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label">Password</label>
+            <input type="password" class="form-control py-2 fs-2" id="exampleInputPassword1">
+        </div>
+        <button type="submit" class="btn btn-success py-2 px-4 fs-2">Update</button>
+        <button type="reset" class="btn btn-warning py-2 px-4 mx-5 fs-2">Reset</button>
+        </form>
+    </div>
+
+
+
+        <!-- ADMIN DETAILS  -->
+    <div class="container fs-2" style="margin-top: 10rem;">
+            <p class="h1 my-5 text-center">ADMIN DETAILS</p>
+        <form>
+            <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">Email</label>
+                <input type="email" class="form-control py-2 fs-2" id="exampleInputEmail1" aria-describedby="emailHelp">
+            </div>
+            <div class="mb-3">
+                <label for="exampleInputObjective" class="form-label">Objective</label>
+                <input type="text" class="form-control py-2 fs-2" id="exampleInputObjective" aria-describedby="objectiveHelp">
+            </div>
+            <div class="mb-3">
+                <label for="formFile" class="form-label">Resume</label>
+                <input class="form-control py-2 fs-2" type="file" id="formFile">
+            </div>
+            <button type="submit" class="btn btn-success py-2 px-4 fs-2">Update</button>
+            <button type="reset" class="btn btn-warning py-2 px-4 mx-5 fs-2">Reset</button>
+        </form>
+    </div>
+</div>
+
+<div class="d-flex  align-container">
+        <!-- PROJECT DETAILS  -->
+    <div class="container fs-2" style="margin-top: 10rem;">
+            <p class="h1 my-5 text-center">PROJECT DETAILS</p>
+        <form>
+            <div class="mb-3">
+                <label for="exampleInputTitle" class="form-label">Title</label>
+                <input type="text" class="form-control py-2 fs-2" id="exampleInputTitle" aria-describedby="titlelHelp">
+            </div>
+            <div class="mb-3">
+                <label for="exampleInputDescription" class="form-label">Description</label>
+                <input type="text" class="form-control py-2 fs-2" id="exampleInputDescription" aria-describedby="descriptionHelp">
+            </div>
+            <div class="mb-3">
+                <label for="exampleInputLink" class="form-label">Links</label>
+                <input type="text" class="form-control py-2 fs-2" id="exampleInputLink" aria-describedby="linkHelp">
+            </div>
+            <button type="submit" class="btn btn-success py-2 px-4 fs-2">Update</button>
+            <button type="reset" class="btn btn-warning py-2 px-4 mx-5 fs-2">Reset</button>
+        </form>
+    </div>
+
+        <!-- CONTACT DETAILS  -->
+    <div class="container fs-2" style="margin-top: 10rem;">
+            <p class="h1 my-5 text-center">CONTACT DETAILS</p>
+        <form>
+            <div class="mb-3">
+                <label for="exampleInputSendMail" class="form-label">Send Mail</label>
+                <input type="text" class="form-control py-2 fs-2" id="exampleSendMail" aria-describedby="sendmailHelp">
+            </div>
+            <div class="mb-3">
+                <label for="exampleInputSendMainPass" class="form-label">Send Mail Password</label>
+                <input type="text" class="form-control py-2 fs-2" id="exampleInputSendMainPass" aria-describedby="sendmailHelp">
+            </div>
+            <div class="mb-3">
+                <label for="exampleInputLink" class="form-label">Receive Mail</label>
+                <input type="text" class="form-control py-2 fs-2" id="exampleInputLink" aria-describedby="linkHelp">
+            </div>
+            <button type="submit" class="btn btn-success py-2 px-4 fs-2">Update</button>
+            <button type="reset" class="btn btn-warning py-2 px-4 mx-5 fs-2">Reset</button>
+        </form>
+    </div>
+</div>
+
+
+
+    <!-- SOCIAL DETAILS  -->
+<div class="fs-2" style="margin-top: 10rem;">
+        <p class="h1 my-5 text-center">SOCIAL DETAILS</p>
+
+    <div class="d-flex  align-container">
+            <!-- LinkedIn  -->
+        <form class="container my-5">
+            <div class="mb-3">
+                <label for="exampleInputLink" class="form-label">LinkedIn</label>
+                <input type="text" class="form-control py-2 fs-2" id="exampleInputLink" aria-describedby="linkHelp">
+            </div>
+            <button type="submit" class="btn btn-success py-2 px-4 fs-2">Update</button>
+            <button type="reset" class="btn btn-warning py-2 px-4 mx-5 fs-2">Reset</button>
+        </form>
+
+            <!-- WhatsApp  -->
+        <form class="container my-5">
+            <div class="mb-3">
+                <label for="exampleInputLink" class="form-label">WhatsApp</label>
+                <input type="text" class="form-control py-2 fs-2" id="exampleInputLink" aria-describedby="linkHelp">
+            </div>
+            <button type="submit" class="btn btn-success py-2 px-4 fs-2">Update</button>
+            <button type="reset" class="btn btn-warning py-2 px-4 mx-5 fs-2">Reset</button>
+        </form>
+    </div>
+
+    <div class="d-flex  align-container">
+            <!-- GitHub  -->
+        <form class="container my-5">
+            <div class="mb-3">
+                <label for="exampleInputLink" class="form-label">GitHub</label>
+                <input type="text" class="form-control py-2 fs-2" id="exampleInputLink" aria-describedby="linkHelp">
+            </div>
+            <button type="submit" class="btn btn-success py-2 px-4 fs-2">Update</button>
+            <button type="reset" class="btn btn-warning py-2 px-4 mx-5 fs-2">Reset</button>
+        </form>
+
+            <!-- Tweeter  -->
+        <form class="container my-5">
+            <div class="mb-3">
+                <label for="exampleInputLink" class="form-label">Tweeter</label>
+                <input type="text" class="form-control py-2 fs-2" id="exampleInputLink" aria-describedby="linkHelp">
+            </div>
+            <button type="submit" class="btn btn-success py-2 px-4 fs-2">Update</button>
+            <button type="reset" class="btn btn-warning py-2 px-4 mx-5 fs-2">Reset</button>
+        </form>
+    </div>
+
+    <div class="d-flex  align-container">
+            <!-- Youtube  -->
+        <form class="container my-5">
+            <div class="mb-3">
+                <label for="exampleInputLink" class="form-label">Youtube</label>
+                <input type="text" class="form-control py-2 fs-2" id="exampleInputLink" aria-describedby="linkHelp">
+            </div>
+            <button type="submit" class="btn btn-success py-2 px-4 fs-2">Update</button>
+            <button type="reset" class="btn btn-warning py-2 px-4 mx-5 fs-2">Reset</button>
+        </form>
+    </div>
+</div>
+
+
+
+
+    
+    <!-- up arrow navigation -->
+    <a href="#" class="arrow-hide" id="arrow-nav">
+        <div class="up-arrow">
+        <i class="fa-solid fa-chevron-up"></i>
+        </div>
+    </a>
+
+    <!-- link bootstrap -->
+    <script src="../js/bootstrap.min.js"></script>
+    
+    <!-- link font awesome  -->
+    <script src="../js/all.min.js"></script>
+    
+    <!-- link custome js  -->
+    <script src="../js/jquery.js"></script>
+    <script src="../js/type.js"></script>
+    <script src="../js/scroll.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="../js/aos.js"></script>
+</body>
+</html>
